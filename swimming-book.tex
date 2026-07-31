@@ -49,15 +49,16 @@
 \newcommand{\explannotebox}[1]{%
   \par\medskip
   \noindent
+  {\setlength{\fboxsep}{1.1em}%
   \colorbox{notebg}{%
     \begin{minipage}{\dimexpr\textwidth-2\fboxsep\relax}
-      \vspace{0.55em}
+      \vspace{0.2em}
       {\small\bfseries\color{deepwater} Explain notes}\\[0.45em]
       {\color{noteline}\rule{\linewidth}{0.4pt}}\\[0.55em]
       #1
-      \vspace{0.35em}
+      \vspace{0.15em}
     \end{minipage}%
-  }%
+  }}%
   \par\medskip
 }
 
@@ -70,8 +71,9 @@
   \vspace*{2.5cm}
   {\color{softwave}\rule{0.55\textwidth}{0.5pt}}\\[1.4cm]
   {\fontsize{36}{42}\selectfont\bfseries\color{deepwater} Swimming}\\[0.8cm]
-  {\large\color{softwave}\itshape The way}\\[1.4cm]
-  {\color{softwave}\rule{0.55\textwidth}{0.5pt}}\\[2.5cm]
+  {\large\color{softwave}\itshape A reflection}\\[1.4cm]
+  {\color{softwave}\rule{0.55\textwidth}{0.5pt}}\\[1.6cm]
+  {\large\color{deepwater} Wong Heung Sang}\\[2.2cm]
   {\normalsize\color{softwave} Preview edition}
   \vfill
 \end{titlepage}
@@ -92,6 +94,33 @@
 \explannotebox{%
   \begin{itemize}
     \item The water is there to help you to swim.
+  \end{itemize}
+}
+
+\chapter{Relax}
+
+\begin{center}
+  {\Large\itshape\color{deepwater} Muscles that do not need to be used should be relaxed.}
+\end{center}
+
+\chapter{Eyes}
+
+\begin{center}
+  {\Large\itshape\color{deepwater} Should look at the bottom of the water.}
+\end{center}
+
+\chapter{Don't stay alert}
+
+\begin{center}
+  {\Large\itshape\color{deepwater} Better no need to stay alert than have to.}
+\end{center}
+
+\vspace{1.2em}
+
+\explannotebox{%
+  \begin{itemize}
+    \item When you stay alert, you cannot enter the flow state.
+    \item You need to stay alert because you are too close to another swimmer, or because you have not found your way in the water.
   \end{itemize}
 }
 
